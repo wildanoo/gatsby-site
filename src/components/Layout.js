@@ -8,7 +8,7 @@ function Layout({ children }) {
          <Navbar />
          <div className="content">{children}</div>
          <footer>
-            <p>Copyright 2023 web warrior</p>
+            <p>Copyright 2023 WEABE</p>
          </footer>
       </div>
    );

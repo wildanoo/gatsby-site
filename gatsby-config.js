@@ -33,9 +33,9 @@ module.exports = {
       },
    ],
    siteMetadata: {
-      title: "Web warrior",
+      title: "WEABE",
       description: "web dev portfolio",
-      copyright: "This website is copyright 2023 Web Warrior",
+      copyright: "This website is copyright 2023 WEABE",
       contact: "me@wildweb.com",
    },
 };

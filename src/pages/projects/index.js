@@ -5,7 +5,6 @@ import * as styles from "../../styles/projects.module.css";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 function Projects({ data }) {
-   console.log("isi data : ", data);
    const projects = data.projects.nodes;
    const contact = data.contact.siteMetadata.contact;
 
