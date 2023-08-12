@@ -5,7 +5,10 @@ import * as styles from "../styles/project-detail.module.css";
 import { graphql } from "gatsby";
 import Navbar from "../components/Navbar";
 
-const ProjectDetails = ({ data }) => {
+const ArticleDetails = ({ data }) => {
+   console.log('====================================');
+   console.log('data detail article : ', data);
+   console.log('====================================');
    const { html } = data.markdownRemark;
    const { title, stack, featuredImg } = data.markdownRemark.frontmatter;
    return (
@@ -29,10 +32,10 @@ const ProjectDetails = ({ data }) => {
    );
 };
 
-export default ProjectDetails;
+export default ArticleDetails;
 
 export const query = graphql`
-   query ProjectDetails($slug: String) {
+   query ArticleDetails($slug: String) {
       markdownRemark(frontmatter: { slug: { eq: $slug } }) {
          id
          html

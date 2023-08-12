@@ -11,8 +11,10 @@ function Projects({ data }) {
    return (
       <Layout>
          <div className={styles.portfolio}>
-            <h2>Portfolio</h2>
-            <h3>Projects & Website I've created</h3>
+            <div className="pt-[120px] text-center">
+               <h2>Portfolio</h2>
+               <h3>Projects & Website I've created</h3>
+            </div>
             <div className={styles.projects}>
                {projects.map((project) => (
                   <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
@@ -37,7 +39,10 @@ export default Projects;
 
 export const query = graphql`
    query ProjectsPage {
-      projects: allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
+      projects: allMarkdownRemark(
+         filter: { fileAbsolutePath: { regex: "/projects/" } }
+         sort: { frontmatter: { date: DESC } }
+      ) {
          nodes {
             frontmatter {
                slug

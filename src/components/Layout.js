@@ -4,7 +4,7 @@ import "../styles/global.css";
 
 function Layout({ children }) {
    return (
-      <div className="layout">
+      <div>
          <Navbar />
          <div className="content">{children}</div>
          <footer>
