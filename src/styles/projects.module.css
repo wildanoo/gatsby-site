@@ -23,3 +23,19 @@
    color: #ccc;
    margin-top: 4px;
 }
+
+@media screen and (max-width: 430px) {
+   .portfolio > div > h2 {
+      font-size: 32px;
+   }
+   .portfolio > div > h3 {
+      font-size: 28px;
+   }
+
+   .projects {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 40px;
+      margin: 30px 20px;
+   }
+}

@@ -11,7 +11,7 @@ const ProjectDetails = ({ data }) => {
    return (
       <Layout>
          <div className={styles.details}>
-            <div className="bg-[#F0F2F5] pt-[120px] pb-[80px] text-center">
+            <div className="bg-[#F0F2F5] pt-14 pb-7 sm:pt-[120px] sm:pb-[80px] text-center">
                <h2>{title}</h2>
                <h3>{stack}</h3>
             </div>

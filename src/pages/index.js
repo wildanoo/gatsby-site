@@ -9,7 +9,7 @@ export default function Home({ data }) {
    return (
       <Layout>
          <section className={styles.header}>
-            <div className="bg-[#F0F2F5] pt-[50px] pb-[80px] w-full">
+            <div className="bg-[#F0F2F5] py-20 w-full">
                <div className="flex flex-col gap-[20px] max-w-sm mx-auto justify-center items-center text-center sm:mx-auto sm:max-w-4xl sm:mt-[100px] sm:px-[150px] ">
                   <div>
                      <StaticImage
@@ -20,7 +20,7 @@ export default function Home({ data }) {
                         className="rounded-[50%]"
                      />
                   </div>
-                  <div className="font-bold text-[26px] leading-[35px] sm:text-[40px] text-green-700">
+                  <div className="font-bold text-[26px] leading-[35px] sm:text-[40px] sm:leading-[40px] text-green-700">
                      Hello, I'm Wildan,{" "}
                      <div className="inline">software developer based in Indonesia.</div>
                   </div>
@@ -330,7 +330,7 @@ export default function Home({ data }) {
                      </div>
                   </div>
                   <div className="grid grid-cols-1 p-5 w-full sm:grid-cols-4 sm:px-[30px] sm:py-[30px] gap-5 shadow-md rounded-xl">
-                     <div className="">
+                     <div className="text-center font-medium">
                         <StaticImage
                            src={"../images/company/ptgue.jpg"}
                            alt={"portfolio-1"}
@@ -338,7 +338,7 @@ export default function Home({ data }) {
                         />
                         <div className="mt-4">PT Global Urban Esensial</div>
                      </div>
-                     <div className="sm:hidden">Sep 2021 - Present</div>
+                     <div className="text-center sm:hidden">Sep 2021 - Present</div>
                      <div className="sm:col-span-2 bg-white">
                         <div className="card-title">Front-end Developer</div>
                         <div className="card-subtitle pl-5 mt-3">
@@ -354,7 +354,7 @@ export default function Home({ data }) {
                      <div className="hidden sm:block">Sep 2021 - Present</div>
                   </div>
                   <div className="grid grid-cols-1 p-5 sm:grid-cols-4 w-full sm:px-[30px] sm:py-[30px] gap-5 shadow-md rounded-xl">
-                     <div className="">
+                     <div className="text-center font-medium">
                         <StaticImage
                            src={"../images/company/meteor.png"}
                            alt={"portfolio-2"}
@@ -362,7 +362,7 @@ export default function Home({ data }) {
                         />
                         <div>PT Meteor Inovasi Digital</div>
                      </div>
-                     <div className="sm:hidden">Oct 2018 - Aug 2021</div>
+                     <div className="text-center sm:hidden">Oct 2018 - Aug 2021</div>
                      <div className="sm:col-span-2 bg-white">
                         <div className="card-title">Fullstack Developer</div>
                         <div className="card-subtitle pl-5 mt-3">
@@ -378,7 +378,7 @@ export default function Home({ data }) {
                      <div className="hidden sm:block">Oct 2018 - Aug 2021</div>
                   </div>
                   <div className="grid grid-cols-1 p-5 sm:grid-cols-4 w-full sm:px-[30px] sm:py-[30px] gap-5 shadow-md rounded-xl">
-                     <div className="">
+                     <div className="text-center font-medium">
                         <StaticImage
                            src={"../images/company/aitindo.png"}
                            alt={"portfolio-3"}
@@ -386,7 +386,7 @@ export default function Home({ data }) {
                         />
                         <div>PT Aiti Prima Indonesia</div>
                      </div>
-                     <div className="sm:hidden">Dec 2016 - Mar 2018</div>
+                     <div className="text-center sm:hidden">Dec 2016 - Mar 2018</div>
                      <div className="sm:col-span-2 bg-white">
                         <div className="card-title">Web Developer</div>
                         <div className="card-subtitle pl-5 mt-3">
@@ -409,7 +409,7 @@ export default function Home({ data }) {
                      <div className="hidden sm:block">Dec 2016 - Mar 2018</div>
                   </div>
                   <div className="grid grid-cols-1 p-5 sm:grid-cols-4 w-full sm:px-[30px] sm:py-[30px] gap-5 shadow-md rounded-xl">
-                     <div className="">
+                     <div className="text-center font-medium">
                         <StaticImage
                            src={"../images/company/minda.png"}
                            alt={"portfolio-4"}
@@ -417,7 +417,7 @@ export default function Home({ data }) {
                         />
                         <div className="mt-4">PT Minda Perdana</div>
                      </div>
-                     <div className="sm:hidden">Apr 2016 - Dec 2016</div>
+                     <div className="text-center sm:hidden">Apr 2016 - Dec 2016</div>
                      <div className="sm:col-span-2 bg-white">
                         <div className="card-title">Web Developer</div>
                         <div className="card-subtitle pl-5 mt-3">
@@ -429,7 +429,7 @@ export default function Home({ data }) {
                      <div className="hidden sm:block">Apr 2016 - Dec 2016</div>
                   </div>
                   <div className="grid grid-cols-1 p-5 sm:grid-cols-4 w-full sm:px-[30px] sm:py-[30px] gap-5 shadow-md rounded-xl">
-                     <div className="">
+                     <div className="text-center font-medium">
                         <StaticImage
                            src={"../images/company/rusun.png"}
                            alt={"portfolio-5"}
@@ -437,7 +437,7 @@ export default function Home({ data }) {
                         />
                         <div className="mt-4">PT Rumah Sunatan Indonesia</div>
                      </div>
-                     <div className="sm:hidden">Oct 2015 - Apr 2016</div>
+                     <div className="text-center sm:hidden">Oct 2015 - Apr 2016</div>
                      <div className="sm:col-span-2 bg-white">
                         <div className="card-title">SEO Specialist</div>
                         <div className="card-subtitle pl-5 mt-3">

@@ -4,11 +4,20 @@
 .details h3 {
    font-size: 2em;
    font-weight: 400;
-   margin-bottom: 40px;
 }
 .html {
    margin-top: 40px;
 }
 .featured {
    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 430px) {
+   .details h2 {
+      font-size: 32px;
+   }
+   .details h3 {
+      font-size: 28px;
+      font-weight: 400;
+   }
 }

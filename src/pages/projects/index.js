@@ -11,7 +11,7 @@ function Projects({ data }) {
    return (
       <Layout>
          <div className={styles.portfolio}>
-            <div className="pt-[120px] text-center">
+            <div className="pt-20 px-5 sm:pt-[120px] text-center">
                <h2>Portfolio</h2>
                <h3>Projects & Website I've created</h3>
             </div>
