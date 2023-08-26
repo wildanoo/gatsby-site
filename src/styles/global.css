@@ -53,3 +53,7 @@ footer p {
 .card-subtitle{
    @apply text-[18px]
 }
+
+.bg-seagreen {
+   background-color: #2e8b57;
+}
